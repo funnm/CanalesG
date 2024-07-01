@@ -60,3 +60,48 @@ input{
     color: #000;
     background: #eee;
 }
+
+/*Navegation*/
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-text{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+h2{
+    color: #fff;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 15px;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-text{
+    color: #fff;
+    text-decoration: none;
+}
+
+
