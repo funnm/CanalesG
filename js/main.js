@@ -9,3 +9,17 @@ $(document).ready(function() {
         });
     });
 });
+
+$(document).ready(function() {
+    // Guardar la URL del video en localStorage
+    $('a[data-url]').click(function(event) {
+        var url = $(this).data('url');
+        localStorage.setItem('videoURL', url);
+    });
+
+    // Cargar la URL del video en el iframe de la página del reproductor
+    var videoURL = localStorage.getItem('videoURL');
+    if (videoURL) {
+        $('#video-frame').attr('src', videoURL);
+    }
+});
