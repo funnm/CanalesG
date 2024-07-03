@@ -49,12 +49,12 @@ ul li{
     text-decoration: none;
 }
 
+/*Content*/
 .container{
-    max-width: 1000px;
-    width: 90%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .card-wrapper {
     vertical-align: top;
@@ -102,7 +102,7 @@ h3{
 }
 
 .card h3 {
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 10px;
     color: #333;
 }
@@ -170,3 +170,43 @@ h3{
     gap: 10px;
 }
 
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .pie-pagina .grupo-1 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0;
+        display: block;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    ul li {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 10px 5%;
+    }
+
+    .pie-pagina .grupo-1 {
+        padding: 20px 0;
+        display: block;
+    }
+}

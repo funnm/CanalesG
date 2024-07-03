@@ -94,8 +94,11 @@ a{
 }
 
 .PAYPAL-DONATE{
-    height: 4em;
-    border-radius: 1em;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 /* Responsive Design */
