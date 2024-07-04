@@ -1,15 +1,3 @@
-const header = document.querySelector('header');
-const footer = document.querySelector('footer');
-
-header.innerHTML = `
-<nav class="navbar">
-    <h1>CANALES G</h1>
-    <ul>
-        <li><a class="nav-text" href="index.html">INICIO</a></li>
-    </ul>
-</nav>
-`;
-
 footer.innerHTML = `
 <div class="grupo-1">
     <div class="box">
