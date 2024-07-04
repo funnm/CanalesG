@@ -1,30 +1,3 @@
-footer.innerHTML = `
-<div class="grupo-1">
-    <div class="box">
-        <h2>COMPARTIR</h2>
-        <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-            <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-            <a class="a2a_button_facebook"></a>
-            <a class="a2a_button_whatsapp"></a>
-            <a class="a2a_button_facebook_messenger"></a>
-            <a class="a2a_button_telegram"></a>
-            <a class="a2a_button_twitter"></a>
-            <a class="a2a_button_x"></a>
-            <a class="a2a_button_vk"></a>
-        </div>
-    </div>
-    <div class="box">
-        <h2>DONACIONES</h2>
-        <p>Si te gusta el contenido, considera hacer una donación para apoyar nuestro trabajo.</p>
-        <a href="#"><img class="PAYPAL-DONATE" src="img/PAYPAL-DONATE.png" alt="PAYPAL-DONATE"></a>
-    </div>
-    <div class="box">
-        <h2>DESCARGA LA APLICACION AQUÍ</h2>
-        <a href="#"><img class="PAYPAL-DONATE" src="img/CANALESG.png" alt="PAYPAL-DONATE"></a>
-    </div>
-</div>
-`;
-
 $(document).ready(function() {
     // Función para buscar canales
     $('#buscar').on('input', function() {
