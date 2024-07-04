@@ -1,20 +1,5 @@
 const header = document.querySelector('header');
 const footer = document.querySelector('footer');
-const head = document.querySelector('head');
-
-head.innerHTML += `
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Descubre y organiza tus canales favoritos con nuestra aplicación de canales.">
-<meta name="autor" content="CanalesG">
-<meta name="keywords" content="CanalesG, CanalesGratis, Reproductor">
-<title>CanalesG</title>
-<link rel="shortcut icon" href="img/canales.png" type="image/png">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/nav.css">
-<link rel="stylesheet" href="css/main.css">
-<link href="https://vjs.zencdn.net/8.12.0/video-js.css" rel="stylesheet" />
-`;
 
 header.innerHTML = `
 <nav class="navbar">
