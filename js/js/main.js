@@ -23,4 +23,7 @@ $(document).ready(function() {
         $('#video-frame').attr('src', videoURL);
     }
 });
-
+document.addEventListener("DOMContentLoaded", function() {
+    var currentYear = new Date().getFullYear();
+    document.getElementById("current-year").textContent = currentYear;
+});
